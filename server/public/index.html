@@ -31,6 +31,14 @@
         </thead>
         <tbody id="songTableBody"></tbody>
     </table>
+    <br>
+    <br>
+    <form onsubmit="submitForm(event)">
+        Artist name: <input type="text" id="name" />
+        Birth year: <input type="text" id="born" />
+        Death year: <input type="text" id="died" />
+        <input type="submit" />
+    </form>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="client.js"></script>
 </body>
